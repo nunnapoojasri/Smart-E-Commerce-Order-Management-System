@@ -1,0 +1,5 @@
+order_id,customer_name,product_sku,product_name,quantity,order_status,expected_delivery,tracking_status,estimated_delivery
+ORD1025,Jordan Lee,WH-100,Wireless Headphones,1,shipped,2026-10-14,Delayed in transit,2026-10-17
+ORD1026,Alex Morgan,KB-200,Mechanical Keyboard,1,delivered,2026-10-12,Delivered,2026-10-12
+ORD1027,Sam Taylor,SP-300,Smart Speaker,1,processing,2026-10-20,Label created,2026-10-19
+ORD1028,Riley Chen,WH-100,Wireless Headphones,2,shipped,2026-10-14,Delayed in transit,2026-10-18
