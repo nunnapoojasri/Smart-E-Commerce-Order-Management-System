@@ -24,6 +24,17 @@ set `OPENAI_API_KEY` before starting the app. Optionally set `OPENAI_MODEL`;
 the default is `openai/gpt-4o-mini`. On Windows PowerShell, set the key with
 `$env:OPENAI_API_KEY="your-api-key"`.
 
+## Deploy to Render
+
+The repository includes a Render Blueprint in `render.yaml`. Push the project to
+GitHub, then in Render choose **New +** → **Blueprint**, connect this repository,
+and deploy the `smart-ecommerce-order-support` web service. Render builds the
+dependencies and provides the public service URL when deployment completes.
+
+The deployed app starts in local mode and does not require an API key. To enable
+CrewAI/LLM responses, add `OPENAI_API_KEY` in the service's Render environment
+settings and redeploy. The free web-service tier may spin down when idle.
+
 ## Try the sample orders
 
 | Order ID | Scenario |
